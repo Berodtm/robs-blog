@@ -1,0 +1,159 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'optima', 'Final Fantasy', sans-serif; /* 'optima' is all lowercase */
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "extra extra"
+    "footer footer";
+  grid-template-columns: 0.65fr 3fr;
+  grid-gap: 20px;
+}
+
+header {
+  grid-area: header;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+main {
+  grid-area: main;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+.extra {
+  grid-area: extra;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1, h2 {
+  color: #74c374;
+}
+
+a {
+  color: #3498db;
+}
+aside ul {
+  list-style-type: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  padding: 10px;
+  text-align: center;
+  background-color: darkslategrey; /* Dark grey background */
+  margin-bottom: 5px;
+  border-radius: 5px; /* Rounded corners */
+}
+
+aside li a {
+  color: #ffffff; /* White text */
+  text-decoration: none; /* Remove underline */
+  display: block; /* Make the entire list item clickable */
+}
+
+aside li:hover {
+  background-color: rgb(66, 112, 112); /* Slightly darker grey on hover */
+}
+/* Style for the blog posts */
+.post {
+  display: flex; /* Use Flexbox */
+  justify-content: space-between; /* Space between content and thumbnail */
+}
+
+.post-content {
+  flex: 4; /* Takes up 3 parts of the available space */
+}
+
+.post-thumbnail {
+  flex: 1; /* Takes up 1 part of the available space */
+  padding: 0 20px; /* Add 20px padding to the left and right */
+}
+
+.post-thumbnail img {
+  max-width: 100%; /* Make sure the image fits within the div */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+.extra .post-thumbnail img {
+  max-width: 90%; /* Adjust this value as needed */
+  
+}
+.extra-thumbnail {
+  padding-right: 0;
+  padding-left: 20px;
+ 
+}
+
+
+img {
+  border: 5px solid rgb(54, 54, 54);
+}
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  /* Stack the sidebar and main content */
+  .container {
+    display: block;
+    grid-gap: 0;
+  }
+
+  aside, main {
+    width: 100%;
+    padding: 20px;  
+    
+  }
+
+  /* Stack the post content and thumbnail */
+  .post {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post-content {
+    width: 95%;
+    text-align: center;
+  }
+  .post-thumbnail {
+    width: 50%;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .container {
+    padding-right: 20px;
+  }
+  body {
+    background-color: #1e1e1e;
+  }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #616161; /* White color */
+}
