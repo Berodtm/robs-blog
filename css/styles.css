@@ -121,12 +121,13 @@ img {
   .container {
     display: block;
     grid-gap: 0;
+    padding-right: 0;
   }
 
   aside, main {
     width: 100%;
     padding: 20px;  
-    
+    box-sizing: border-box; 
   }
 
   /* Stack the post content and thumbnail */
