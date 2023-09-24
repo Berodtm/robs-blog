@@ -1,67 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Robs Learning Journey</title>
-  <link href="https://fonts.cdnfonts.com/css/optima" rel="stylesheet">
-  <link href="https://fonts.cdnfonts.com/css/final-fantasy" rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="A Page Showing Robs learning progress with codeing" />
+    <meta name="author" content="Rob Dunn" />
+    <title>Robs Blog</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
+
 <body>
-  <div class="container">
-    <header>
-      <h1>Rob's Learning Journey</h1>
-      <p>A dream you dream alone is only a dream. A dream you dream together is reality. ~  John Lennon</p>
+    <!-- Responsive navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-lg-5">
+            <a class="navbar-brand" href="index.html">Rob's Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank"
+                            href="https://www.codecademy.com/learn">Codecademy</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank"
+                            href="https://github.com/Berodtm/RobsBlog">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="py-5">
+        <div class="container px-lg-5">
+            <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                <div class="m-4 m-lg-5">
+                    <h1 class="display-5 fw-bold">Rob's Blog</h1>
+                    <p class="fs-4">Welcome to my page. This is where I blog all things of interest to me whether its
+                        something I learnt with AI, coding or anything cool in tech.</p>
+                    <a class="btn btn-primary btn-lg" target="_blank"
+                        href="https://www.linkedin.com/in/rob-dunn-7288061b7/">My Linkedin Page</a>
+                </div>
+            </div>
+        </div>
     </header>
-    <aside>
-      <h2>Links of Wonder</h2>
-      <ul>
-        <li><a href="https://www.codecademy.com/learn">Codecademy</a></li>
-        <li><a target="_blank" href="https://github.com/Berodtm/codecademy-projects">GitHub</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </aside>
-    <main>
-      <article class="post">
-        <div class="post-content">
-          <h2>Tic-Tac-Toe Game</h2>
-          <p>I followed a guide on Youtube and I particularly enjoyed learning the JavaScript side where we selected win conditions using arrays.</p>
-          <p>You can see the game <a target="_blank" href="https://berodtm.github.io/codecademy-projects/CodeWithAniaKub%C3%B3w/tikTacToe/">here on GitHub</a></p>
-          <p>It might sound daft but I also discovered I can have an Index.html in any folder, this linked page doesnt have the html name at the end. I thought that was pretty cool.</p>
-        </div>
-        <div class="post-thumbnail">
-          <img src="./images/tictactoe.png" alt="tictactoe">
-        </div>
-      </article>
-      <hr>
-      <article class="post">
-        <div class="post-content">
-          <h2>Random Quote Generator</h2>
-          <p>I had a blast learning about API for the first time on Youtube. There was a bit of Bootstrap, A bit of Font Awesome icons and a bit of J-Query. The guide was really old and a lot of the code didnt work anymore, this made me go onto the bootstrap site and find replacement classes.</p>
-          <p>You can find the page <a target="_blank" href="https://berodtm.github.io/codecademy-projects/StephenMayeux/RandonQuoteGenerator/quote-gen.html">on GitHub</a></p>
-        </div>
-        <div class="post-thumbnail">
-          <img src="./images/quote-gen.png" alt="Random Quote Generator">
-        </div>
-      </article>
-    </main>
-    <div class="extra">
-        <article class="post">
-            <div class="post-content">
-              <h2>Magic 8-Ball</h2>
-              <p>One of the first cool projects I completed on Codecademy was to use a switch statment in JavaScript to see a random question in the console.</p> 
-              <p>Once happy with the JavaScript I applied some stuff I learnt about the DOM and turned it into a webpage. I did a bit of sloppy CSS trying to make a round ball, its not responsive and looks kind of quirky. I kind of like it and will keep it like that to remind myself how far I've come when reading back. You can see it <a target="_blank" href="https://berodtm.github.io/codecademy-projects/8-Ball/ask-eight-ball.html">here on GitHub</a></p>
+    <!-- Page Content-->
+    <section class="pt-4">
+        <div class="container px-lg-5">
+            <!-- Page Features-->
+            <div class="row gx-lg-5">
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                    class="bi bi-collection"></i></div>
+                            <h2 class="fs-4 fw-bold">I made Snake using JavaScript!</h2>
+                            <p class="mb-0">Remember Snake on the old Nokia 3210 / 3310 era? I followed a guide and
+                                built the basic game myself. <br>I then applied retro colours and added some CSS to give
+                                it a retro feel. I even put the start button where the speaker on the phone would of
+                                gone! I plan to revisit this later to add controls for mobile.</p><br><a target="_blank"
+                                href="https://berodtm.github.io/codecademy-projects/CodeWithAniaKub%C3%B3w/snake3310/">Play
+                                the game here!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                    class="bi bi-cloud-download"></i></div>
+                            <h2 class="fs-4 fw-bold">Tic-Tac-Toe Game</h2>
+                            <p class="mb-0">I followed a guide on Youtube and I particularly enjoyed learning the
+                                JavaScript side where we selected win conditions using arrays. <br> <a
+                                    href="https://berodtm.github.io/codecademy-projects/CodeWithAniaKub%C3%B3w/tikTacToe/">You
+                                    can see the game here on GitHub</a><br>It might sound daft but I also discovered I
+                                can have an Index.html in any folder, this linked page doesnt have the html name at the
+                                end. I thought that was pretty cool.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                    class="bi bi-card-heading"></i></div>
+                            <h2 class="fs-4 fw-bold">Random Quote Generator</h2>
+                            <p class="mb-0">I had a blast learning about API for the first time on Youtube. There was a
+                                bit of Bootstrap, A bit of Font Awesome icons and a bit of J-Query. The guide was really
+                                old and a lot of the code didnt work anymore, this made me go onto the bootstrap site
+                                and find replacement classes.<br><a
+                                    href="https://berodtm.github.io/codecademy-projects/StephenMayeux/RandonQuoteGenerator/quote-gen.html">You
+                                    can find the page on GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                    class="bi bi-bootstrap"></i></div>
+                            <h2 class="fs-4 fw-bold">Magic 8 Ball</h2>
+                            <p class="mb-0">One of the first cool projects I completed on Codecademy was to use a switch
+                                statment in JavaScript to see a random question in the console.
+
+                                Once happy with the JavaScript I applied some stuff I learnt about the DOM and turned it
+                                into a webpage. I did a bit of sloppy CSS trying to make a round ball, its not
+                                responsive and looks kind of quirky. I kind of like it and will keep it like that to
+                                remind myself how far I've come when reading back. <a target="_blank"
+                                    href="https://berodtm.github.io/codecademy-projects/8-Ball/ask-eight-ball.html">You
+                                    can see it here on GitHub</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                    class="bi bi-code"></i></div>
+                            <h2 class="fs-4 fw-bold">Placeholder Link</h2>
+                            <p class="mb-0">This is a placeholder link where I plan to archive my old blog posts /
+                                highlights.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xxl-4 mb-5">
+                    <div class="card bg-light border-0 h-100">
+                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i
+                                    class="bi bi-patch-check"></i></div>
+                            <h2 class="fs-4 fw-bold">Codecademy</h2>
+                            <p class="mb-0">I am currently studying JavaScript on Codecademy. I am finding their guides
+                                to be really easy to understand, interactive and engaging. <a target="_blank"
+                                    href="https://www.codecademy.com/learn">Check Codecademy out here.</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="post-thumbnail extra-thumbnail">
-              <img src="./images/8ball.jpg" alt="8-Ball">
-            </div>
-          </article>
-    </div>
-    <footer>
-      <p>Footer Content here placeholder text</p>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p>
+        </div>
     </footer>
-  </div>
-  <script src="./js/script.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
