@@ -104,25 +104,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* FA  */
-nav .fa-brands {
-  color: #fff;
-  margin: 0 3px;
-}
-/* .icon-hover-beat:hover {
-  animation: fa-beat 1s infinite ease-in-out;
-} */
 
-/* Apply the hover effect to the icon when the button is hovered */
-.btn:hover .icon-hover-beat {
-  animation: fa-beat 1s infinite ease-in-out;
-}
-.fa-linkedin {
-  margin: 0;
-}
-a .fa-arrow-right {
-  margin-left: 5px;
-}
 
 
 
@@ -491,7 +473,54 @@ legend + * {
   -webkit-appearance: button;
   appearance: button;
 }
+/* added styles                    ---------------------                  */
+.col-lg-6 .card-footer {
+  padding: 0;                  
+  color: inherit;                
+  background-color: transparent; 
+  border: none;  
+  padding-top: 10px;               
+}
 
+.flex-grow {
+  flex: 1 1 auto;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  
+}
+a:hover i {
+  animation: fa-beat 1s infinite ease-in-out;
+}
+
+a.btn:hover, a.btn-primary:hover, a.btn-lg:hover {
+  text-decoration: none !important;
+}
+
+/* FA  */
+nav .fa-brands {
+  color: #fff;
+  margin: 0 3px;
+}
+/* .icon-hover-beat:hover {
+  animation: fa-beat 1s infinite ease-in-out;
+} */
+
+/* Apply the hover effect to the icon when the button is hovered */
+.btn:hover .icon-hover-beat {
+  animation: fa-beat 1s infinite ease-in-out;
+}
+.fa-linkedin {
+  margin: 0;
+}
+a .fa-arrow-right {
+  margin-left: 5px;
+}
+/* added styles   ---------------------                                   */
 output {
   display: inline-block;
 }
@@ -10158,7 +10187,7 @@ textarea.form-control-lg {
     padding: 1.5rem !important;
   }
   .p-lg-5 {
-    padding: 3rem !important;
+    padding: 1.5rem !important;
   }
   .px-lg-0 {
     padding-right: 0 !important;
