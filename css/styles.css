@@ -656,10 +656,14 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
+.img-profile{
+  opacity: 0.8;
+  box-shadow: 5px 5px 20px 6px #0d3252
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
