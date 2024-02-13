@@ -4302,6 +4302,13 @@ textarea.form-control-lg {
   background-color: var(--bs-card-cap-bg);
   border-top: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
+
+.card-footer.link-primary {
+  background-color: transparent !important; /* Override the background color */
+  border-top: none !important; /* Override the top border */
+}
+
+
 .card-footer:last-child {
   border-radius: 0 0 var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius);
 }
