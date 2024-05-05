@@ -3,6 +3,9 @@
 ## Introduction
 Welcome to Rob's Blog, a showcase of my journey in coding and technology. This blog is designed to share insights, projects, and my progression as a Front-end Engineer. It's built using HTML, CSS, JavaScript, React, and more.
 
+## Live Demo
+Visit [Rob's Blog](https://berodtm.github.io/RobsBlog/) to see my journey and explore the features live.
+
 ## Features
 - **Interactive Navbar**: Includes icons for HTML5, CSS3, JavaScript, React, and GitHub.
 - **Responsive Design**: Crafted for an optimal viewing experience across all devices.
@@ -25,6 +28,3 @@ Welcome to Rob's Blog, a showcase of my journey in coding and technology. This b
 ## Behind the Scenes
 - **CSS**: Custom stylesheets enhance the visual appeal and interactivity.
 - **JavaScript**: Scripts for dynamic features and responsive interactions.
-
-## Live Demo
-Visit [Rob's Blog](https://berodtm.github.io/RobsBlog/) to see my journey and explore the features live.
